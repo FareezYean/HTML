@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+</head>
+<body>
+    <main class="container">
+    <h1>Form HTML</h1>
+    <hr>
+
+    <form>
+        <div>
+            <label for="InputName">Nama Lengkap</label>
+            <input type="text" name="nama_lengkap" id="InputName" />
+        </div>
+        <div>
+            <label for="InputUmur">Umur</label>
+            <input type="number" name="Umur" id="InputUmur" />
+        </div>
+        <div>
+            <label for="InputBio">Biografi</label>
+            <textarea name="Biografi" id="InputBio"></textarea>
+        </div>
+        <div>
+            <label for="InputDate">Tanggal Lahir</label>
+            <input type="date" name="TanggalLahir" id="InputDate" />
+        </div>
+        <div>
+            <label for="InputEmail">Email</label>
+            <input type="email" name="Email" id="InputEmail" />
+        </div>
+        <div>
+            <label for="InputPass">Password</label>
+            <input type="password" name="Password" id="InputPass" />
+        </div>
+        <div>
+            <label for="InputKota">Asal Kota</label>
+            <select name="Kota" id="InputKota">
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bogor">Bogor</option>
+                <option value="Depok">Depok</option>
+                <option value="Tangerang">Tangerang</option>
+                <option value="Bekasi">Bekasi</option>
+            </select>
+        </div>
+        <div>
+            <p>Hobi</p>
+            <input type="checkbox" name="Hobi" id="Renang" />
+            <label for="Renang">Renang</label>
+            <input type="checkbox" name="Hobi" id="Gaming" />
+            <label for="Gaming">Gaming</label>
+            <input type="checkbox" name="Hobi" id="Tidur" />
+            <label for="Tidur">Tidur</label>
+            <input type="checkbox" name="Hobi" id="Nonton Film" />
+            <label for="Nonton Film">Nonton Film</label>
+        </div>
+        <div>
+            <p>Jenis Gender</p>
+            <input type="radio" name="JenisGen" id="Man" />
+            <label for="Laki">Laki-Laki</label>
+            <input type="radio" name="JenisGen" id="Female" />
+            <label for="Perempuan">Perempuan</label>
+            <input type="radio" name="JenisGen" id="Other" />
+            <label for="Other">Other</label>
+            <input type="radio" name="JenisGen" id="Non Binary" />
+            <label for="Not">Non Binary</label>
+        </div>
+
+        <div class="grid">
+            <button type="submit">Simpan</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
