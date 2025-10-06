@@ -6,7 +6,7 @@ h1 {
 }
 
 h1 {
-  text-align: center;
+  text-align: center; /* Letak posisi teks */
 }
 
 h2 {
@@ -20,11 +20,11 @@ span {
 }
 
 .photo {
-  border-radius: 12px;
+  border-radius: 12px; /* Membuat sudut membulat */
 }
 
 .photo {
-    display: block;
+    display: block; /* Agar gambar menjadi blok */
     margin-left: auto; /*Margin adalah jarak*/
     margin-right: auto;
 }
@@ -34,7 +34,7 @@ span {
   height: 220px; 
   object-fit: cover; /* membuat gambar atau video mengisi seluruh kotaknya tanpa merusak rasio aslinya */
   border-radius: 50%;
-  border: 3px solid #e5e7eb;
+  border: 3px solid #e5e7eb; /* garis tepi */
 }
 
 .Pengantar {
@@ -42,7 +42,7 @@ span {
   text-align:left;
   padding: 24px; /* jarak dalam */
   border-radius: 12px; 
-  margin: 0 auto;
+  margin: 0 auto; /* agar berada di tengah */
   width: 80%; 
 }
 
@@ -84,20 +84,20 @@ hr {
 }
 
 .navbar {
-  display: flex;
+  display: flex; /* agar elemen di dalamnya sejajar */
   justify-content: center;
-  gap: 10px;
+  gap: 10px; /* jarak antar elemen */
   margin-top: 20px;
 }
 
 .navbar a {
-  text-decoration: none;
+  text-decoration: none; /* menghilangkan garis bawah */
   padding: 10px 20px;
   border: 2px solid #ddd;
   border-radius: 20px;
   color: #333;
   font-weight: 500;
-  transition: 0.3s;
+  transition: 0.3s; /* Animasi transisi halus */
 }
 
 .navbar a {
@@ -207,7 +207,7 @@ hr {
 .gallery {
   display: flex;
   gap: 16px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* biar turun ke bawah kalau penuh */
   justify-content: center; /* Agar galeri di tengah */
 }
 
