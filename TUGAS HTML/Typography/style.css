@@ -1,0 +1,115 @@
+/* HEADER */
+
+.header {
+  background-color: #333; 
+  padding: 15px;
+  border-radius: 25px; 
+  margin: 10px auto;
+  width: 95%; 
+}
+
+.header h2 {
+  text-align: center; 
+  color:#fff;
+  font-family: serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+}
+
+.header p {
+  text-align: center; 
+  color: #fff;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size:medium;
+}
+
+/* MAIN */
+
+.main {
+  background-color: #101356;
+  padding: 25px;
+  border-radius: 25px;
+  margin: 10px auto;
+  width: 95%;
+}
+
+/* ARTICLE */
+
+.article {
+  background-color: #808080; 
+  text-align:left;
+  padding: 15px; 
+  border-radius: 15px; 
+  margin: 10px auto;
+  width: 80%; 
+}
+
+.article h3 {
+  text-align: center;
+  color: #fff;
+  font-family: michroma;
+  letter-spacing: 10px;
+  text-transform: capitalize;
+}
+
+.article p {
+  text-align: center; 
+  color: #fff;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size:medium;
+  line-height: 25px;
+}
+
+/* BLOCKQUOTE*/
+
+.blockquote {
+  background: #808080;
+  border-left: solid 10px #333;
+  padding: 15PX 20PX;
+  margin: 10px auto;
+  font-family: michroma, sans-serif;
+  font-style: italic;
+  word-spacing: 15px;
+}
+
+/*note */
+
+.note {
+  background: #808080;
+  border-left: solid 10px #333;
+  padding: 15PX 20PX;
+  margin: 10px auto;
+  font-family: michroma, sans-serif;
+  font-style: italic;
+  word-spacing: 15px;
+}
+
+/* FOOTER */
+
+.footer {
+  font-size: 40px;
+  text-align: right;
+}
+
+.footer p {
+  text-align: right;
+  font-family: 'Bismillah', cursive;
+  color: #b91c1c;
+}
+
+.footer h4 {
+  text-align: right;
+}
+
+/* TAMBAHAN */
+
+span {
+ color: #680dc3;
+}
+
+@font-face {
+  font-family: 'Bismillah';
+  src: url('fonts/Bismillah.ttf') format('truetype');
+}
