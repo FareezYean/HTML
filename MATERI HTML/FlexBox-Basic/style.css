@@ -1,0 +1,45 @@
+.card {
+  background: #fefefe;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #eee;
+  border-radius: 6px;
+
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.area {
+  width: 200px;
+  height: 200px;
+  place-content: center;
+}
+
+.area h3,
+.area p {
+  margin: 0 auto;
+}
+
+.area p {
+  font-size: 14px;
+  color: #666;
+}
+
+.pricing-area {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.b-blue {
+    border: 2px solid blue;
+    width: 150px;
+    height: 250px;
+}
+

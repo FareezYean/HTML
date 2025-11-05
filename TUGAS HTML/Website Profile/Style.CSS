@@ -6,7 +6,7 @@ h1 {
 }
 
 h1 {
-  text-align: center; /* Letak posisi teks */
+  text-align: center;
 }
 
 h2 {
@@ -20,30 +20,30 @@ span {
 }
 
 .photo {
-  border-radius: 12px; /* Membuat sudut membulat */
+  border-radius: 12px; 
 }
 
 .photo {
-    display: block; /* Agar gambar menjadi blok */
-    margin-left: auto; /*Margin adalah jarak*/
+    display: block; 
+    margin-left: auto; 
     margin-right: auto;
 }
 
 .avatar {
   width: 220px; 
   height: 220px; 
-  object-fit: cover; /* membuat gambar atau video mengisi seluruh kotaknya tanpa merusak rasio aslinya */
+  object-fit: cover; 
   border-radius: 50%;
-  border: 3px solid #e5e7eb; /* garis tepi */
+  border: 3px solid #e5e7eb; 
 }
 
 .Pengantar {
   background-color: #fff; 
   text-align:left;
-  padding: 24px; /* jarak dalam */
+  padding: 24px; 
   border-radius: 12px; 
-  margin: 0 auto; /* agar berada di tengah */
-  width: 80%; 
+  margin: 0 auto; 
+  width: 90%;
 }
 
 .Avatar-favorit {
@@ -52,7 +52,7 @@ span {
   padding: 24px;
   border-radius: 12px; 
   margin: 0 auto;
-  width: 80%; 
+  width: 90%; 
 }
 
 .center {
@@ -66,7 +66,7 @@ body {
 .container {
   background-color: #fff; 
   text-align:left;
-  padding: 24px; /* jarak dalam */
+  padding: 24px; 
   border-radius: 12px; 
   margin: 0 auto;
   width: 80%; 
@@ -84,20 +84,20 @@ hr {
 }
 
 .navbar {
-  display: flex; /* agar elemen di dalamnya sejajar */
+  display: flex; 
   justify-content: center;
-  gap: 10px; /* jarak antar elemen */
+  gap: 10px; 
   margin-top: 20px;
 }
 
 .navbar a {
-  text-decoration: none; /* menghilangkan garis bawah */
+  text-decoration: none; 
   padding: 10px 20px;
   border: 2px solid #ddd;
   border-radius: 20px;
   color: #333;
   font-weight: 500;
-  transition: 0.3s; /* Animasi transisi halus */
+  transition: 0.3s; 
 }
 
 .navbar a {
@@ -112,7 +112,7 @@ hr {
 
 .navbar a:hover,
 .navbar a:active {
-  background-color: #092e9d; /* Biru */
+  background-color: #092e9d; 
   color: white;
 }
 
@@ -175,14 +175,6 @@ hr {
     th, td {
       padding: 12px 15px;
       border: 1px solid #ddd;
-    }
-
-    tbody tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
-
-    tbody tr:hover {
-      background-color: #f1f1f1;
     }
 
 /* Galeri */
