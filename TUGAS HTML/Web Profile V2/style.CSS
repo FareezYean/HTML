@@ -3,7 +3,7 @@
    ============================================================ */
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Biar Padding dan Border Otomatis Masuk ke Width/Height */
 }
 
 body {
@@ -92,7 +92,7 @@ hr {
 
 .avatar {
   width: 220px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/1; /* Biar bentuk selalu sama */
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #ddd;
@@ -280,7 +280,7 @@ button {
   .Pengantar { width: 90%; padding: 16px; }
   .avatar { width: 180px; }
   .photo { width: 90px; }
-  .navbar a { flex: 1 1 45%; text-align: center; }
+  .navbar a { flex: 1 1 45%; text-align: center; } /* grow-shrink-basis */
 }
 
 /* Tablet */
